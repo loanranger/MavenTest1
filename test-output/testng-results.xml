@@ -1,59 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40063" started-at="2017-05-30T16:17:48Z" finished-at="2017-05-30T16:18:28Z">
+  <suite name="Default suite" duration-ms="188184" started-at="2017-05-30T16:23:53Z" finished-at="2017-05-30T16:27:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40063" started-at="2017-05-30T16:17:48Z" finished-at="2017-05-30T16:18:28Z">
-      <class name="testcases.VerifyLoginPageTitle">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:testcases.VerifyLoginPageTitle@16905e]" name="setUp" is-config="true" duration-ms="0" started-at="2017-05-30T21:47:48Z" finished-at="2017-05-30T21:47:48Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at dataProvider.ConfigDataProvider.getApplicationUrl(ConfigDataProvider.java:29)
-	at testcases.VerifyLoginPageTitle.setUp(VerifyLoginPageTitle.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+    <test name="Default test" duration-ms="188184" started-at="2017-05-30T16:23:53Z" finished-at="2017-05-30T16:27:01Z">
+      <class name="testcases.TestLoginPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestLoginPage@149dace]" name="setUp" is-config="true" duration-ms="129841" started-at="2017-05-30T21:53:53Z" finished-at="2017-05-30T21:56:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyLoginPageTitle()[pri:0, instance:testcases.VerifyLoginPageTitle@16905e]" name="verifyLoginPageTitle" duration-ms="8" started-at="2017-05-30T21:48:28Z" finished-at="2017-05-30T21:48:28Z">
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:testcases.TestLoginPage@149dace]" name="verifyLogin" duration-ms="56773" started-at="2017-05-30T21:56:03Z" finished-at="2017-05-30T21:57:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginPageTitle -->
-        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:testcases.VerifyLoginPageTitle@16905e]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-05-30T21:48:28Z" finished-at="2017-05-30T21:48:28Z">
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testcases.TestLoginPage@149dace]" name="cleanUp" is-config="true" duration-ms="1485" started-at="2017-05-30T21:57:00Z" finished-at="2017-05-30T21:57:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- testcases.VerifyLoginPageTitle -->
+      </class> <!-- testcases.TestLoginPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
